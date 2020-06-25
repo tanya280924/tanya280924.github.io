@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS FANATICS</title>
+
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+
+<style>
+    /* CSS Reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url('image/icon.jpg');
+        color: white;
+        
+        
+        
+    }
+    .left{
+         /* border: 2px solid red;   */
+        display: inline-block;
+        position: absolute;
+        
+        top:20px
+        
+    }
+    .mid{
+         /* border: 2px solid red;   */
+        display: block;
+        width:50%;
+        margin: 30px auto;
+    }
+    .right{
+        /* border: 2px solid red;  */
+        display: inline-block;
+        position: absolute;
+        right:35px;
+        top:30px;
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        color: white;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding: 34px;
+        font-size: 20px;
+    }
+    .navbar li a:hover {
+        color:cornsilk;
+        text-decoration: underline;
+        
+    }
+    
+
+    
+    .left img{
+        width:90px;
+        position: relative;
+        left: 25px;
+        
+    }
+    .left div{
+        text align :center;
+        line height: 15px;
+        font size:22px;
+        
+    }
+    .btn{
+        margin:0px 9px;
+        color:white;
+        background-color: black;
+        height: 40px;
+        padding: 8px 20px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        color:rgb(80, 75, 75);
+        background-color: rgb(7, 2, 10);
+        font-family: 'Baloo 2', cursive;
+    }
+    .container{
+        border: 3px solid white;
+        margin: 100px 80px;
+        padding: 52px;
+        width: 55%;
+        border-radius: 44px;
+        height: 300px;
+        margin-top:120px ;
+    }
+    .formgroup input{
+
+        text-align: center;
+        display: block;
+        border: 2px solid black;
+        width: 53%;
+        padding: 5px;
+        margin: 8px auto;
+        font-size: 18px;
+        border-radius: 15px;
+        font-family: 'Baloo 2', cursive;
+        color: black;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 400px;
+        margin: 20px auto;
+        height: 40px;
+        
+    }
+</style>
+</head>
+
+<body>
+    <header class="head">
+        <div class="left">
+            <!-- for logo  -->
+            <img src="image/bg.jpeg" alt="error">
+            <div>
+               <strong>FANATICS FITNESS</strong> 
+                
+            </div>
+            <div>
+                (by Tanya)
+            </div>
+        </div>
+        <div class="mid">
+            <!-- for navigation bar  -->
+            <nav class="navbar" >
+            <ul>
+                <li><a href="#">Home </a></li>
+                <li><a href="#">About us </a></li>
+                <li><a href="#">Fitness calculator </a></li>
+                <li><a href="#">Contact us </a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="right">
+            <!-- for right buttons -->
+             <button class="btn">Call us Now</button>
+             <button class="btn">Email Us </button>
+    
+        </div>
+    </header>
+    <div class="container">
+       <h1>
+        Join best fitness club in your city!
+       </h1>
+       <form action="noaction.php">
+           <div class="formgroup">
+               <input type="text" name="" id="" placeholder="Enter your Name">
+           </div>
+           <div class="formgroup">
+               <input type="text" name="" id="" placeholder="Enter your Age">
+           </div>
+           <div class="formgroup">
+               <input type="text" name="" id="" placeholder="Enter your Gender">
+           </div>
+           <div class="formgroup">
+               <input type="text" name="" id="" placeholder="Enter your Locality">
+           </div>
+           <button class="btn">Submit</button>
+           
+       </form>
+    </div>
+    
+
+</body>
+
+</html>
