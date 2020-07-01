@@ -24,7 +24,7 @@
     left: 0px;
     right: 0px;
     flex-wrap: wrap;
-    opacity:0.4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #navbar ul li{
     font-family: 'Baloo Bhai 2', cursive;
