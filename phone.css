@@ -1,0 +1,85 @@
+#navbar{
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+#navbar ul li{
+    padding:0px;
+     font-size:1rem ;
+}
+#navbar::before{
+    height:100%;
+    width: 97%;
+    
+    z-index: -1;
+    opacity:0.4;
+    top:0px;
+    left: 0px;
+}
+#navbar #logo{
+    padding:0px;
+    margin-right:  200px ;
+
+
+}
+
+
+#home{
+    height: 750px;
+    width:100%;
+
+    padding: 60px 80px;
+    padding-bottom: 4px;
+  
+}
+#home::before{
+    height:750px;
+    
+
+}
+#home p{
+    padding:10px 50px;
+    margin: 25px;
+
+}
+#services{
+    flex-direction: column;
+
+
+}
+#services.box{
+    height:100px;
+    flex-wrap: wrap;
+}
+#services .box img{
+    height:100px;
+    display: block;
+    margin: auto;
+    
+}
+#clients{
+    flex-wrap: wrap;
+    height:260px;
+
+}
+#clients img{
+    width:40px;
+    height:40px;
+    
+}
+#client::before{
+    height:440px;
+}
+.hprimary{
+    font-size: 23px;
+    padding:0px;
+
+
+}
+.btn{
+    padding:20px 18px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    height:60px;
+}
