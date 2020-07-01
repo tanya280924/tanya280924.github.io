@@ -24,6 +24,9 @@
     right: 0px;
     flex-wrap: wrap;
 }
+#navbar ul li{
+    font-family: 'Baloo Bhai 2', cursive;
+}
 .btn{
     height:80px;
 }
@@ -64,6 +67,7 @@
 body{
     
 }
-#contactbox {
+#hprimary {
+    font-family: 'Baloo Bhai 2', cursive;
     
 }
