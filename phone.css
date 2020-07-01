@@ -15,7 +15,8 @@
 #navbar ul{
     display: flex;
     flex-direction: column;
-    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 #navbar{
     padding-bottom: 85px;
@@ -27,7 +28,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #navbar ul li{
-    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn{
     height:80px;
